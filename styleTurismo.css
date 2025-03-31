@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 8vh;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    /*largura total*/
+    height: 100vh;
+    /* altura total da tela */
+    background-image: url('/projeto/img/viking04.avif');
+    background-size: cover;
+    /* faz com que a imagem de fundo ocupe todo o elemento sem distorcer, cobrindo completamente a área disponível*/
+    background-position: center;
+}
+
+.texto-sobreposto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* fundo escuro semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-text {
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    padding: 100px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+hr {
+    height: 5px; /* Torna a linha mais grossa */
+    border: none;
+}
+
+.container-img {
+    margin-left: 350px;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+
+.text-style {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+.container-text01 {
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    padding: 100px;
+    margin: 0 0 22px 0;
+    font-weight: bold;
+}
+
+.container-img-espc {
+    margin-left: 350px;
+    padding: 10px;
+    margin-bottom: 1%;
+    
+}
+
+.container-text-esp01 {
+    padding: 10px;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.list {
+    text-align: center; /* Centraliza os itens */
+}
+
+.list ul {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0;
+    display: inline-block; /* Faz a lista se comportar como um bloco centralizado */
+    text-align: left; /* Garante que os itens fiquem alinhados corretamente dentro do bloco */
+}
+
+.list ul li {
+    font-size: 20px; /* Ajuste do tamanho da fonte */
+    margin: 10px 0; /* Espaçamento entre os itens */
+}
+
+.list ul li a {
+    color: black; /* Define a cor preta para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: goldenrod;
+    padding: 10px;
+}

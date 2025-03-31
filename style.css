@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 8vh;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    /*largura total*/
+    height: 100vh;
+    /* altura total da tela */
+    background-image: url('/projeto/img/viking012avif.jpg');
+    background-size: cover;
+    /* faz com que a imagem de fundo ocupe todo o elemento sem distorcer, cobrindo completamente a área disponível*/
+    background-position: center;
+}
+
+.texto-sobreposto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* fundo escuro semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-text {
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-img {
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto verticalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+img {
+    width: 800px; /* Ajuste o tamanho da imagem */
+    height: auto;
+}
+
+.container-text02 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.fundo-img01 {
+    background-color: black;
+}
+
+.container002 {
+    position: relative;
+    width: 100%;
+    /*largura total*/
+    height: 100vh;
+    /* altura total da tela */
+    background-image: url('/projeto/img/serie_vikings.jpg');
+    background-size: cover;
+    /* faz com que a imagem de fundo ocupe todo o elemento sem distorcer, cobrindo completamente a área disponível*/
+    background-position: center;
+}
+
+.texto-sobreposto002 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* fundo escuro semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    height: 200px; /* Torna a linha mais grossa */
+    background-color: black; /* Altera a cor */
+    border: none; /* Remove a borda padrão */
+    margin-bottom: 0px;
+
+}
+
+.container-text002 {
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    padding: 100px;
+    margin: 0;
+}
+

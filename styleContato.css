@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 8vh;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    /*largura total*/
+    height: 100vh;
+    /* altura total da tela */
+    background-image: url('/projeto/img/escadiland04.jpg');
+    background-size: cover;
+    /* faz com que a imagem de fundo ocupe todo o elemento sem distorcer, cobrindo completamente a área disponível*/
+    background-position: center;
+}
+
+.texto-sobreposto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* fundo escuro semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    height: 8px; /* Torna a linha mais grossa */
+    border: none;
+}
+
+.container-form {
+    max-width: 740px;
+    background-color: goldenrod;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+form input, form label, form textarea {
+    display: block;
+    width: 90%;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form textarea {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
